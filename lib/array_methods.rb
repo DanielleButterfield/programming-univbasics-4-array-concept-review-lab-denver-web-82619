@@ -15,7 +15,9 @@ def find_max_value(array)
   while array[counter] do
     if array[counter] > maxval
       maxval = array[counter]
+      counter += 1
     else
+      counter += 1
     end
   end
   return maxval
@@ -27,7 +29,9 @@ def find_min_value(array)
   while array[counter] do
     if array[counter] < minval
       minval = array[counter]
+      counter += 1
     else
+      counter += 1
     end
   end
   return minval
